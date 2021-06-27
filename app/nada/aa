@@ -1,0 +1,10 @@
+#craer mensaje
+@app.route("/")
+def index():
+    return "codigofacilito"
+    otras rutas 
+    @app.route("/hola")
+def hola_mundo():
+    return "holamundossssss"
+    importar doc css,js images etc
+        <script src="{{url_for('static',filename='js/index.js') }}"></script>
